@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f5ed">
+  <title>Teresa & Moisés | Nuestra boda</title>
+  <link rel="stylesheet" href="IM.CSS">
+</head>
+
+<body>
+
+  <!-- TRES MARIPOSAS: UNA ROSA Y DOS AZULES -->
+  <div class="mariposas-magicas" aria-hidden="true">
+    <span class="mariposa mariposa-rosa"><i class="ala ala-izquierda"></i><i class="ala ala-derecha"></i><b class="cuerpo"></b></span>
+    <span class="mariposa mariposa-azul mariposa-azul-uno"><i class="ala ala-izquierda"></i><i class="ala ala-derecha"></i><b class="cuerpo"></b></span>
+    <span class="mariposa mariposa-azul mariposa-azul-dos"><i class="ala ala-izquierda"></i><i class="ala ala-derecha"></i><b class="cuerpo"></b></span>
+  </div>
+
+  <!-- PORTADA CON SOBRE -->
+  <section class="sobre-portada" id="sobre-portada">
+    <div class="corazones-fondo" id="corazones-fondo"></div>
+
+    <div class="portada-contenido">
+      <p class="sobre-etiqueta">UNA INVITACIÓN ESPECIAL</p>
+      <h1>Una promesa,<br>dos corazones</h1>
+
+      <div class="separador-romantico">
+        <span></span> ♥ <span></span>
+      </div>
+
+      <p class="sobre-intro">
+        Hay momentos que se vuelven eternos
+        cuando se comparten con las personas que amamos.
+        Hoy queremos compartir el nuestro contigo.
+      </p>
+
+      <div class="sobre-animado" id="sobre-animado" role="button" tabindex="0"
+        aria-label="Abrir el sobre de invitación">
+        <div class="sobre-carta">
+          <span class="carta-mini">CON MUCHO AMOR</span>
+          <p class="carta-nombres">Teresa <span>&</span> Moisés</p>
+          <span class="carta-fecha">16 · 01 · 2027</span>
+        </div>
+        <div class="sobre-cuerpo"></div>
+        <div class="sobre-solapa"></div>
+        <div class="sobre-sello">♥</div>
+      </div>
+
+      <p class="sobre-instruccion">
+        Hemos preparado algo especial para ti
+      </p>
+
+      <button class="boton-abrir" id="boton-abrir" type="button">
+        Ver invitación <span>♡</span>
+      </button>
+
+      <p class="sobre-pie">CON AMOR, TERESA Y MOISÉS</p>
+    </div>
+  </section>
+
+  <!-- INVITACIÓN -->
+  <main id="invitacion" class="invitacion" aria-hidden="true">
+
+    <section class="hero" id="inicio" aria-label="Fotografía principal de Teresa y Moisés">
+      <div class="hero-overlay"></div>
+      <div class="hero-contenido reveal">
+        <p class="etiqueta">EL COMIENZO DE NUESTRA HISTORIA</p>
+        <h2>Teresa <span>&</span> Moisés</h2>
+        <div class="linea-dorada"></div>
+        <p class="hero-frase">
+          Dos almas, una historia y un amor para toda la vida.
+        </p>
+        <p class="hero-fecha">16 · ENERO · 2027</p>
+        
+      </div>
+      <div class="hero-abajo">
+        <span>CON AMOR, PARA SIEMPRE</span>
+        <span class="flecha-abajo">↓</span>
+      </div>
+    </section>
+
+    <section class="bienvenida seccion">
+      <div class="contenedor estrecho reveal">
+        <span class="adorno">❦</span>
+        <p class="etiqueta">UN DÍA INOLVIDABLE</p>
+        <h2>¡Nos casamos!</h2>
+        <p class="texto-elegante">
+          El amor nos ha traído hasta aquí y queremos celebrar
+          este momento tan especial con las personas que forman
+          parte de nuestra historia.
+        </p>
+        <p class="texto-elegante">
+          Nos encantaría que nos acompañaras a comenzar
+          esta nueva etapa llena de amor, sueños y felicidad.
+        </p>
+        <div class="iniciales">T <span>&</span> M</div>
+      </div>
+    </section>
+
+    <section class="historia seccion" id="historia">
+      <div class="contenedor">
+        <div class="encabezado-seccion reveal">
+          <p class="etiqueta">UN CAMINO COMPARTIDO</p>
+          <h2>Nuestra historia</h2>
+          <div class="linea-dorada"></div>
+        </div>
+
+        <div class="historia-grid">
+          <div class="historia-texto reveal">
+            <span class="adorno">❦</span>
+            <h3>Un amor que nos une</h3>
+            <p>
+              Cada historia de amor comienza de una manera única.
+              La nuestra se ha construido con momentos especiales,
+              sonrisas, aprendizajes y sueños compartidos.
+            </p>
+            <p>
+              Hoy queremos dar un paso más y celebrar la promesa
+              de caminar juntos, apoyarnos en cada etapa y seguir
+              escribiendo nuestra historia.
+            </p>
+            <p class="firma">Con todo nuestro amor</p>
+            <p class="firma-nombres">Teresa & Moisés</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cuenta-regresiva seccion">
+      <div class="contenedor reveal">
+        <p class="etiqueta">CADA VEZ FALTA MENOS</p>
+        <h2>La cuenta regresiva</h2>
+        <p class="texto-elegante">
+          Estamos contando los días para compartir contigo
+          uno de los momentos más importantes de nuestras vidas.
+        </p>
+        <div class="contador" id="contador">
+          <div class="contador-item"><span id="dias">000</span><small>DÍAS</small></div>
+          <div class="contador-item"><span id="horas">00</span><small>HORAS</small></div>
+          <div class="contador-item"><span id="minutos">00</span><small>MINUTOS</small></div>
+          <div class="contador-item"><span id="segundos">00</span><small>SEGUNDOS</small></div>
+        </div>
+        <p class="fecha-contador">16 de enero de 2027 · 2:30 p. m.</p>
+      </div>
+    </section>
+
+    <section class="familias seccion">
+      <div class="contenedor">
+        <div class="encabezado-seccion reveal">
+          <p class="etiqueta">NUESTRAS RAÍCES</p>
+          <h2>Con la bendición de nuestros padres</h2>
+          <div class="linea-dorada"></div>
+          <p class="texto-elegante">
+            Con gratitud y cariño, compartimos este día
+            junto a quienes nos han acompañado en la vida.
+          </p>
+        </div>
+
+        <div class="familias-grid">
+          <article class="familia-card reveal">
+            <span class="adorno">❦</span>
+            <p class="etiqueta">PADRES DEL NOVIO</p>
+            <h3>Yolanda Uribe</h3>
+            <span class="familia-y">y</span>
+            <h3>Alfonso Esquivel Serrano</h3>
+          </article>
+
+          <article class="familia-card reveal">
+            <span class="adorno">❦</span>
+            <p class="etiqueta">PADRES DE LA NOVIA</p>
+            <h3>Gloria Martínez Castillo</h3>
+            <span class="familia-y">y</span>
+            <h3>Andrés Tenquedo Vilchis</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="padrinos seccion">
+      <div class="contenedor estrecho reveal">
+        <span class="adorno">♡</span>
+        <p class="etiqueta">PERSONAS ESPECIALES</p>
+        <h2>Nuestros padrinos</h2>
+        <p class="texto-elegante">
+          Agradecemos de corazón a quienes nos acompañarán
+          y serán parte de este momento tan significativo
+          en nuestra vida.
+        </p>
+        <div class="padrinos-linea"></div>
+        <div class="padrinos-nombres">
+          <p>Sonia Moreno Rodríguez</p>
+          <span>y</span>
+          <p>Antonio Mejía Gonzalez</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="evento seccion" id="evento">
+      <div class="contenedor">
+        <div class="encabezado-seccion reveal">
+          <p class="etiqueta">GUARDA LA FECHA</p>
+          <h2>Detalles de nuestro día</h2>
+          <div class="linea-dorada"></div>
+          <p class="texto-elegante">
+            Nos encantará compartir contigo cada instante
+            de esta celebración.
+          </p>
+        </div>
+
+        <div class="evento-grid">
+          <article class="evento-card reveal">
+            <div class="evento-icono">♡</div>
+            <p class="etiqueta">CEREMONIA RELIGIOSA</p>
+            <h3>La ceremonia</h3>
+            <p class="evento-lugar">Parroquia de San Mateo Oxtotitlán</p>
+            <div class="evento-detalle">
+              <span>FECHA</span><p>16 de enero de 2027</p>
+            </div>
+            <div class="evento-detalle">
+              <span>HORA</span><p>2:30 p. m.</p>
+            </div>
+            <a href="https://maps.app.goo.gl/HMfGDUSoNWQyrEP28"
+              target="_blank" rel="noopener noreferrer" class="boton-evento">
+              Ver ubicación ↗
+            </a>
+          </article>
+
+          <article class="evento-card reveal">
+            <div class="evento-icono">✧</div>
+            <p class="etiqueta">CELEBRACIÓN</p>
+            <h3>La recepción</h3>
+            <p class="evento-lugar">La Casita de las Flores</p>
+            <div class="evento-detalle">
+              <span>FECHA</span><p>16 de enero de 2027</p>
+            </div>
+            <div class="evento-detalle">
+              <span>HORA</span><p>3:30 p. m.</p>
+            </div>
+            <a href="https://maps.app.goo.gl/ytqndqSJUwUwDb8N7"
+              target="_blank" rel="noopener noreferrer" class="boton-evento">
+              Ver ubicación ↗
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="vestimenta seccion">
+      <div class="contenedor estrecho reveal">
+        <span class="adorno">❦</span>
+        <p class="etiqueta">COLOR DE VESTIMENTA RESERVADO</p>
+        <div class="vestimenta-destacada">
+          <span class="vestimenta-icono">✧</span>
+        </div>
+        <p class="vestimenta-nota">
+          Por favor, evita los colores blanco, beige y verde olivo,
+          ya que estarán reservados para los novios.
+          ¡Gracias por ayudarnos a cuidar cada detalle!
+        </p>
+        <div class="paleta-colores" aria-label="Colores reservados para los novios">
+          <div class="color-muestra color-blanco"><span>Blanco</span></div>
+          <div class="color-muestra color-beige"><span>Beige</span></div>
+          <div class="color-muestra color-olivo"><span>Verde olivo</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONFIRMACIÓN DE ASISTENCIA: TALLY -->
+    <section class="confirmacion seccion" id="confirmacion">
+      <div class="contenedor estrecho reveal">
+        <span class="adorno">♡</span>
+        <p class="etiqueta">NOS ENCANTARÍA CONTAR CONTIGO</p>
+        <h2>¿Nos acompañas?</h2>
+        <div class="linea-dorada"></div>
+        <p class="texto-elegante">
+          Tu presencia hará que este día sea todavía más especial.
+          Por favor, completa el siguiente formulario para confirmar
+          tu asistencia.
+        </p>
+
+        <div class="tally-marco">
+          <div class="tally-encabezado">
+            <span class="tally-corazon">♡</span>
+            <p>CONFIRMA TU ASISTENCIA</p>
+            <span>Teresa &amp; Moisés · 16 de enero de 2027</span>
+          </div>
+
+          <iframe
+            class="tally-iframe"
+            data-tally-src="https://tally.so/embed/o9Dyvb?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1"
+            src="https://tally.so/embed/o9Dyvb?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1"
+            title="Formulario de confirmación de asistencia de Teresa y Moisés"
+            loading="lazy"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0">
+          </iframe>
+
+          <p class="tally-pie">
+            Gracias por acompañarnos en un día tan especial. ♡
+            <a href="https://tally.so/r/o9Dyvb" target="_blank" rel="noopener noreferrer">
+              Si el formulario no se muestra, ábrelo aquí.
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cierre seccion">
+      <div class="contenedor estrecho reveal">
+        <span class="adorno">❦</span>
+        <p class="etiqueta">EL INICIO DE UN PARA SIEMPRE</p>
+        <h2>Gracias por ser parte<br>de nuestra historia</h2>
+        <p class="texto-elegante">
+          Nos vemos para celebrar el amor, la alegría
+          y el comienzo de una nueva aventura.
+        </p>
+        <div class="iniciales cierre-iniciales">T <span>&</span> M</div>
+        <p class="cierre-fecha">16 · 01 · 2027</p>
+      </div>
+    </section>
+
+    <footer class="pie-pagina">
+      <p>HECHO CON AMOR</p>
+      <p>Teresa & Moisés · 2027</p>
+    </footer>
+  </main>
+
+  <!-- MÚSICA -->
+  <audio id="musica" src="musica.mp3" loop preload="none"></audio>
+
+  <button class="boton-musica" id="boton-musica" type="button"
+    aria-label="Reproducir música" aria-pressed="false">
+    <span id="icono-musica">♫</span>
+    <span id="texto-musica">Música</span>
+  </button>
+
+  <script>
+    /* ELEMENTOS DE LA PORTADA */
+    const portadaSobre = document.getElementById("sobre-portada");
+    const sobreAnimado = document.getElementById("sobre-animado");
+    const botonAbrir = document.getElementById("boton-abrir");
+    const invitacion = document.getElementById("invitacion");
+    const fondoCorazones = document.getElementById("corazones-fondo");
+
+    /* ELEMENTOS DE MÚSICA */
+    const musica = document.getElementById("musica");
+    const botonMusica = document.getElementById("boton-musica");
+    const iconoMusica = document.getElementById("icono-musica");
+    const textoMusica = document.getElementById("texto-musica");
+
+    let invitacionAbierta = false;
+
+    /* CORAZONES CAYENDO */
+    function crearCorazon() {
+      if (!fondoCorazones || invitacionAbierta) return;
+
+      const corazon = document.createElement("span");
+      corazon.className = "corazon-caida";
+      corazon.textContent = Math.random() > 0.5 ? "♥" : "♡";
+      corazon.style.left = Math.random() * 100 + "%";
+      corazon.style.fontSize = (10 + Math.random() * 12) + "px";
+      corazon.style.animationDuration = (6 + Math.random() * 6) + "s";
+
+      fondoCorazones.appendChild(corazon);
+      corazon.addEventListener("animationend", () => corazon.remove());
+    }
+
+    const intervaloCorazones = window.setInterval(crearCorazon, 650);
+
+    /* ABRIR SOBRE Y COMENZAR MÚSICA */
+    function abrirInvitacion() {
+      if (invitacionAbierta) return;
+
+      invitacionAbierta = true;
+      sobreAnimado.classList.add("abierto");
+      botonAbrir.disabled = true;
+      botonAbrir.textContent = "Con todo nuestro amor ♥";
+
+      // La música comienza al tocar el sobre o el botón.
+      musica.play().then(function () {
+        iconoMusica.textContent = "Ⅱ";
+        textoMusica.textContent = "Pausar";
+        botonMusica.setAttribute("aria-label", "Pausar música");
+        botonMusica.setAttribute("aria-pressed", "true");
+      }).catch(function () {
+        // Si el navegador bloquea la reproducción, el botón Música permite iniciarla.
+        textoMusica.textContent = "Activar música";
+      });
+
+      window.clearInterval(intervaloCorazones);
+
+      window.setTimeout(function () {
+        portadaSobre.classList.add("portada-cerrada");
+
+        window.setTimeout(function () {
+          portadaSobre.style.display = "none";
+          invitacion.classList.add("invitacion-visible");
+          invitacion.setAttribute("aria-hidden", "false");
+          window.scrollTo({ top: 0, behavior: "auto" });
+        }, 800);
+      }, 1450);
+    }
+
+    /* EL SOBRE Y EL BOTÓN ABREN LA INVITACIÓN */
+    botonAbrir.addEventListener("click", abrirInvitacion);
+    sobreAnimado.addEventListener("click", abrirInvitacion);
+
+    sobreAnimado.addEventListener("keydown", function (evento) {
+      if (evento.key === "Enter" || evento.key === " ") {
+        evento.preventDefault();
+        abrirInvitacion();
+      }
+    });
+
+    /* CUENTA REGRESIVA */
+    const fechaBoda = new Date(2027, 0, 16, 14, 30, 0).getTime();
+
+    function actualizarContador() {
+      const diferencia = fechaBoda - Date.now();
+
+      const dias = document.getElementById("dias");
+      const horas = document.getElementById("horas");
+      const minutos = document.getElementById("minutos");
+      const segundos = document.getElementById("segundos");
+
+      if (diferencia <= 0) {
+        document.getElementById("contador").innerHTML =
+          '<p class="contador-finalizado">¡Hoy celebramos nuestro amor! ♡</p>';
+        return;
+      }
+
+      dias.textContent = Math.floor(diferencia / 86400000);
+
+      horas.textContent = String(
+        Math.floor((diferencia % 86400000) / 3600000)
+      ).padStart(2, "0");
+
+      minutos.textContent = String(
+        Math.floor((diferencia % 3600000) / 60000)
+      ).padStart(2, "0");
+
+      segundos.textContent = String(
+        Math.floor((diferencia % 60000) / 1000)
+      ).padStart(2, "0");
+    }
+
+    actualizarContador();
+    window.setInterval(actualizarContador, 1000);
+
+    /* ANIMACIONES AL DESPLAZARSE */
+    const elementosReveal = document.querySelectorAll(".reveal");
+
+    if ("IntersectionObserver" in window) {
+      const observador = new IntersectionObserver(
+        function (entradas, observer) {
+          entradas.forEach(function (entrada) {
+            if (entrada.isIntersecting) {
+              entrada.target.classList.add("visible");
+              observer.unobserve(entrada.target);
+            }
+          });
+        },
+        { threshold: 0.12 }
+      );
+
+      elementosReveal.forEach(elemento => observador.observe(elemento));
+    } else {
+      elementosReveal.forEach(elemento => elemento.classList.add("visible"));
+    }
+
+    /* BOTÓN PARA PAUSAR O REANUDAR LA MÚSICA */
+    botonMusica.addEventListener("click", async function () {
+      try {
+        if (musica.paused) {
+          await musica.play();
+
+          iconoMusica.textContent = "Ⅱ";
+          textoMusica.textContent = "Pausar";
+          botonMusica.setAttribute("aria-label", "Pausar música");
+          botonMusica.setAttribute("aria-pressed", "true");
+        } else {
+          musica.pause();
+
+          iconoMusica.textContent = "♫";
+          textoMusica.textContent = "Música";
+          botonMusica.setAttribute("aria-label", "Reproducir música");
+          botonMusica.setAttribute("aria-pressed", "false");
+        }
+      } catch (error) {
+        textoMusica.textContent = "Revisa musica.mp3";
+      }
+    });
+
+    /* AJUSTE AUTOMÁTICO DEL FORMULARIO DE TALLY */
+    (function () {
+      var scriptTally = document.createElement("script");
+      scriptTally.src = "https://tally.so/widgets/embed.js";
+      scriptTally.async = true;
+      document.body.appendChild(scriptTally);
+    })();
+  </script>
+
+</body>
+</html>
